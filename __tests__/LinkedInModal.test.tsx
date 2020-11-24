@@ -14,7 +14,7 @@ import LinkedInModal, {
   onLoadStart,
 } from '../src'
 
-jest.mock('WebView', () => 'WebView')
+jest.mock('react-native-webview/lib/WebView', () => 'WebView')
 
 // @ts-ignore
 global.fetch = jest.fn().mockImplementation(

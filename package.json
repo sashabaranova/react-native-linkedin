@@ -1,6 +1,6 @@
 {
   "name": "react-native-linkedin",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "React-Native LinkedIn, a simple LinkedIn login library for React-Native with WebView and Modal",
@@ -29,28 +29,29 @@
   "dependencies": {
     "query-string": "6.8.3",
     "ramda": "0.26.1",
-    "uuid": "3.3.3",
-    "react-native-webview": "8.1.1"
+    "react-native-webview": "9.4.0",
+    "uuid": "3.3.3"
   },
   "devDependencies": {
     "@types/jest": "24.0.17",
-    "@types/react": "16.9.4",
-    "@types/react-native": "0.60.17",
-    "@types/uuid": "^3.4.4",
     "@types/ramda": "^0.25.47",
+    "@types/react": "~16.9.41",
+    "@types/react-native": "~0.62.13",
+    "@types/uuid": "^3.4.4",
     "babel-jest": "24.9.0",
+    "babel-preset-expo": "^8.2.3",
     "babel-preset-react-native": "^4.0.0",
-    "babel-preset-expo": "^7.0.0",
-    "expo": "^35.0.0",
+    "expo": "^38.0.0",
     "husky": "3.0.8",
+    "jest": "^26.6.3",
+    "jest-expo": "^38.0.0",
     "json": "^9.0.6",
-    "jest-expo": "^35.0.0",
-    "react": "16.8.3",
-    "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
+    "react": "16.11.0",
+    "react-native": "0.62.2",
     "react-test-renderer": "16.8.3",
     "tslint": "5.12.0",
     "tslint-config-prettier": "1.17.0",
-    "typescript": "3.8.2"
+    "typescript": "~3.9.5"
   },
   "peerDependencies": {
     "react": "*",
